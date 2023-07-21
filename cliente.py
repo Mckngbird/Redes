@@ -1,7 +1,7 @@
 import socket
 
 # Configuración del cliente
-host = '192.168.1.15'  # Dirección IP del servidor
+host = '192.168.1.5'  # Dirección IP del servidor
 port = 5000  # Puerto para la conexión
 
 # Crear un socket TCP/IP
