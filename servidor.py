@@ -2,7 +2,7 @@ import socket
 
 # Configuración del servidor
 host = '192.168.1.5'  # Dirección IP del servidor
-port = 5000  # Puerto para la conexión
+port = '5000'  # Puerto para la conexión
 max_connections = 5  # Número máximo de conexiones encoladas
 
 # Crear un socket TCP/IP
@@ -12,7 +12,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((host, port))
 
 # Escuchar conexiones entrantes
-server_socket.listen(max_connections)
+server_socket.listen(5)
 
 print('El servidor está listo para recibir conexiones...')
 
